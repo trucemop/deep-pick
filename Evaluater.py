@@ -1,4 +1,4 @@
-from UTILS_TF2 import model_eval
+from UTILS import model_eval
 import os
 
 GPU = 0

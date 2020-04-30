@@ -1,6 +1,6 @@
 import os
 from obspy.clients.fdsn import Client
-from UTILS_TF2 import monthly_miniseed_downloader, monthly_catalog_downloader, merge_csv, snr_csv
+from UTILS import monthly_miniseed_downloader, monthly_catalog_downloader, merge_csv, snr_csv
 
 #############################################################################################################
 #  This python script will download all the data necessary to train a deep teleseismic signal detector.     #

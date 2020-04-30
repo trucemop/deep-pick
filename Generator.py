@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import pandas as pd
-from UTILS_TF2 import target_exp, my_generator, gen_single_obs, drop_csv
+from UTILS import target_exp, my_generator, gen_single_obs, drop_csv
 import obspy
 import datetime
 
