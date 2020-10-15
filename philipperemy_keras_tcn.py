@@ -1,13 +1,12 @@
-import tensorflow.keras.backend as K
-from tensorflow.keras import optimizers
-from tensorflow.keras.layers import Conv1D, SpatialDropout1D
-from tensorflow.keras.layers import Activation, Lambda
-from tensorflow.keras.layers import Convolution1D, Dense
-from tensorflow.keras.models import Model
-from tensorflow.keras import Input
-import tensorflow.keras.layers
-import tensorflow.keras as keras
-
+import tensorflow.python.keras.backend as K
+from tensorflow.python.keras import optimizers
+from tensorflow.python.keras.layers import Conv1D, SpatialDropout1D
+from tensorflow.python.keras.layers import Activation, Lambda
+from tensorflow.python.keras.layers import Convolution1D, Dense
+from tensorflow.python.keras.models import Model
+from tensorflow.python.keras import Input
+import tensorflow.python.keras.layers
+import tensorflow.python.keras as keras
 
 def channel_normalization(x):
     # Normalize by the highest activation
